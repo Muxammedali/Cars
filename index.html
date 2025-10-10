@@ -4,346 +4,313 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Car repair</title>
+    <meta
+      name="description"
+      content="Trusted car repair and maintenance services with ASE certified technicians."
+    />
+    <title>Car Repair Service</title>
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/media.css" />
+    <script src="js/main.js" defer></script>
   </head>
-
   <body>
-    <header class="header">
+    <header class="header" id="top">
       <div class="container">
         <div class="header__wrapper">
           <div class="header__block">
-            <a
-              href="https://github.com/Muxammedali"
-              target="_blank"
-              class="header__logo"
-            >
-              <img src="img/logo.png" alt="" />
+            <a href="#home" class="header__logo" aria-label="Return to start">
+              <img src="img/logo.png" alt="Car repair logo" />
             </a>
           </div>
-          <!-- /header__block  -->
-
-          <nav class="nav">
-            <a
-              href="https://github.com/Muxammedali"
-              target="_blank"
-              class="nav__link active"
-              >MAIN</a
+          <nav class="nav" aria-label="Primary">
+            <a href="#home" class="nav__link active" data-nav-target="home">Main</a>
+            <a href="#services" class="nav__link" data-nav-target="services"
+              >Our Services</a
             >
-            <a
-              href="https://github.com/Muxammedali"
-              target="_blank"
-              class="nav__link"
-              >OUR SERVICES</a
-            >
-            <a
-              href="https://github.com/Muxammedali"
-              target="_blank"
-              class="nav__link"
-              >ABOUT</a
-            >
-            <a
-              href="https://github.com/Muxammedali"
-              target="_blank"
-              class="nav__link"
-              >CONTACTS</a
+            <a href="#about" class="nav__link" data-nav-target="about">About</a>
+            <a href="#contacts" class="nav__link" data-nav-target="contacts"
+              >Contacts</a
             >
           </nav>
-
           <div class="header__block">
             <div class="header__lng">
-              <a
-                href="https://github.com/Muxammedali"
-                target="_blank"
-                class="header__lng-link"
-                >RU</a
-              >
-              <a
-                href="https://github.com/Muxammedali"
-                target="_blank"
-                class="header__lng-link active"
-                >EN</a
-              >
+              <a href="tel:222222222" class="header__lng-link">Call 222-222-222</a>
+              <a href="#contacts" class="header__lng-link active">Book a Visit</a>
             </div>
           </div>
         </div>
-        <!-- /header__wrapper -->
       </div>
-      <!-- /container -->
     </header>
-
-    <section class="intro" style="background-image: url('img/intro_bg.jpg')">
-      <div class="container">
-        <div class="intro__content">
-          <div class="intro__block">
-            <h1 class="intro__title">
-              KEEPING YOU ON THE ROAD WITH SERVICE YOU CAN TRUST
-            </h1>
-            <a href="https://github.com/Muxammedali" target="_blank" class="btn"
-              >Show more</a
-            >
+    <main>
+      <section
+        id="home"
+        class="intro"
+        style="background-image: url('img/intro_bg.jpg')"
+      >
+        <div class="container">
+          <div class="intro__content">
+            <div class="intro__block">
+              <h1 class="intro__title">
+                Keeping you on the road with service you can trust
+              </h1>
+              <a href="#services" class="btn">View services</a>
+            </div>
           </div>
         </div>
-      </div>
-    </section>
-    <!-- intro -->
-
-    <section class="info">
-      <div class="container">
-        <div class="wrapper">
-          <div class="block">
-            <div class="info__item">
-              <div class="info__img">
-                <img src="./img/info/phone.svg" alt="" />
-              </div>
-              <h4 class="info__title">CALL US NOW 222-222-222</h4>
-              <p class="info__text">Fell free to call us</p>
-            </div>
-          </div>
-          <!-- /info__block -->
-
-          <div class="block">
-            <div class="info__item">
-              <div class="info__img">
-                <img src="./img/info/calendar.svg" alt="" />
-              </div>
-              <h4 class="info__title">GET FREE APPOITMET</h4>
-              <p class="info__text">Free Diagnosis & Brake Checks</p>
-            </div>
-          </div>
-          <!-- /info__block -->
-
-          <div class="block">
-            <div class="info__item">
-              <div class="info__img">
-                <img src="./img/info/pin.svg" alt="" />
-              </div>
-              <h4 class="info__title">FIND US ON MAP</h4>
-              <p class="info__text">New York, 1286 Ruumu Nanor</p>
-            </div>
-          </div>
-          <!-- /info__block -->
-        </div>
-        <!-- info__wrapper -->
-      </div>
-      <!-- /container -->
-    </section>
-    <!-- info -->
-
-    <section class="section">
-      <div class="container">
-        <h2 class="block__title">OUR SERVICES</h2>
-        <a
-          href="https://github.com/Muxammedali"
-          target="_blank"
-          class="block__link"
-        >
-          VIEW ALL SERVICES
-        </a>
-
-        <div class="wrapper">
-          <div class="block">
-            <a
-              href="https://github.com/Muxammedali"
-              target="_blank"
-              class="services__item"
-            >
-              <div
-                class="services__content"
-                style="background-image: url('./img/services/diagnostic.jpg')"
-              >
-                <div class="services__content-item">
-                  <div class="services__img">
-                    <img src="./img/services/plus.svg" alt="" />
-                  </div>
-                  <p class="services__text">
-                    ANNUAL CHECKUPS FROM YOUR PHYSICIAN KEEP YOU IN GOOD HEALTH
-                  </p>
+      </section>
+      <section class="info">
+        <div class="container">
+          <div class="wrapper">
+            <div class="block">
+              <div class="info__item">
+                <div class="info__img">
+                  <img src="./img/info/phone.svg" alt="Phone icon" />
                 </div>
+                <h4 class="info__title">Call us now 222-222-222</h4>
+                <p class="info__text">Feel free to call us</p>
               </div>
-              <h3 class="services__title">DIAGNOSTIC</h3>
-            </a>
-          </div>
-          <!--/block-->
-          <div class="block">
-            <a
-              href="https://github.com/Muxammedali"
-              target="_blank"
-              class="services__item"
-            >
-              <div
-                class="services__content"
-                style="background-image: url('./img/services/tires.jpg')"
-              >
-                <div class="services__content-item">
-                  <div class="services__img">
-                    <img src="./img/services/plus.svg" alt="" />
-                  </div>
-                  <p class="services__text">
-                    ANNUAL CHECKUPS FROM YOUR PHYSICIAN KEEP YOU IN GOOD HEALTH
-                  </p>
+            </div>
+            <div class="block">
+              <div class="info__item">
+                <div class="info__img">
+                  <img src="./img/info/calendar.svg" alt="Calendar icon" />
                 </div>
+                <h4 class="info__title">Get a free appointment</h4>
+                <p class="info__text">
+                  Complimentary diagnostics & brake checks
+                </p>
               </div>
-              <h3 class="services__title">TIRES & WHEELS</h3>
-            </a>
-          </div>
-          <!--/block-->
-          <div class="block">
-            <a
-              href="https://github.com/Muxammedali"
-              target="_blank"
-              class="services__item"
-            >
-              <div
-                class="services__content"
-                style="background-image: url('./img/services/engine.jpg')"
-              >
-                <div class="services__content-item">
-                  <div class="services__img">
-                    <img src="./img/services/plus.svg" alt="" />
-                  </div>
-                  <p class="services__text">
-                    ANNUAL CHECKUPS FROM YOUR PHYSICIAN KEEP YOU IN GOOD HEALTH
-                  </p>
+            </div>
+            <div class="block">
+              <div class="info__item">
+                <div class="info__img">
+                  <img src="./img/info/pin.svg" alt="Map pin icon" />
                 </div>
+                <h4 class="info__title">Find us on the map</h4>
+                <p class="info__text">New York, 1286 Ruumu Nanor</p>
               </div>
-              <h3 class="services__title">ENGINES</h3>
-            </a>
-          </div>
-          <!--/block-->
-        </div>
-        <!--/wrapper-->
-      </div>
-      <!--/container-->
-    </section>
-
-    <section class="section about">
-      <div class="container">
-        <div class="about__wrapper">
-          <div class="about__block">
-            <h2 class="block__title text-white">
-              WE UNDERSTAND HOW IMPORTANT IT IS TO FIND THE RIGHT AUTO SERVICE
-            </h2>
-            <p class="about__text">
-              Car repairs and maintenance can be expensive and no one wants to
-              have pay to repair damage caused by shoddy repair service. When
-              you bring your car into our auto shop, you won’t have to worry
-              because our staff is comprised of ASE certified technicians who
-              are committed to making sure you have a safe dependable car.
-            </p>
-            <a
-              href="https://github.com/Muxammedali"
-              target="_blank"
-              class="about__link"
-              >MORE ABOUT US</a
-            >
-          </div>
-          <!-- /about__block -->
-
-          <img src="./img/about_img.jpg" alt="" class="about__img" />
-        </div>
-        <!-- /about__wrapper -->
-      </div>
-      <!-- /container -->
-    </section>
-
-    <section class="section process">
-      <div class="container">
-        <h2 class="process__title">FAST & EASY</h2>
-        <h3 class="process__subtitle">our work process</h3>
-        <div class="wrapper">
-          <div class="block">
-            <div class="process__item">
-              <h4 class="info__title">1.Request your quote</h4>
-              <p class="info__text">We will be there when you most need us</p>
-            </div>
-          </div>
-
-          <div class="block">
-            <div class="process__item">
-              <h4 class="info__title">02. BRING YOUR VEHICLE</h4>
-              <p class="info__text">We are car guys at heart</p>
-            </div>
-          </div>
-          <div class="block">
-            <div class="process__item">
-              <h4 class="info__title">03. GET IT REPAIRED</h4>
-              <p class="info__text">High quality, low cost car servicing</p>
             </div>
           </div>
         </div>
-      </div>
-      <!-- /contaier -->
-    </section>
-
-    <section class="contacts">
-      <div class="container">
-        <h2 class="block__title text-white">Contact us</h2>
-        <form class="contacts__form" action="">
-          <div class="form__row">
-            <div class="form__group">
-              <input type="text" class="input" placeholder=" " />
-              <label for="" class="label"> Name </label>
+      </section>
+      <section id="services" class="section services">
+        <div class="container">
+          <h2 class="block__title">Our services</h2>
+          <a href="#contacts" class="block__link">Book a consultation</a>
+          <div class="wrapper">
+            <div class="block">
+              <a href="#contacts" class="services__item">
+                <div
+                  class="services__content"
+                  style="background-image: url('./img/services/diagnostic.jpg')"
+                >
+                  <div class="services__content-item">
+                    <div class="services__img">
+                      <img src="./img/services/plus.svg" alt="" />
+                    </div>
+                    <p class="services__text">
+                      Comprehensive diagnostics to keep your car reliable
+                    </p>
+                  </div>
+                </div>
+                <h3 class="services__title">Diagnostics</h3>
+              </a>
             </div>
-            <div class="form__group">
-              <input type="text" class="input" placeholder=" " />
-              <label for="" class="label"> Last name </label>
+            <div class="block">
+              <a href="#contacts" class="services__item">
+                <div
+                  class="services__content"
+                  style="background-image: url('./img/services/tires.jpg')"
+                >
+                  <div class="services__content-item">
+                    <div class="services__img">
+                      <img src="./img/services/plus.svg" alt="" />
+                    </div>
+                    <p class="services__text">
+                      Premium tires, balancing, and seasonal wheel care
+                    </p>
+                  </div>
+                </div>
+                <h3 class="services__title">Tires &amp; Wheels</h3>
+              </a>
+            </div>
+            <div class="block">
+              <a href="#contacts" class="services__item">
+                <div
+                  class="services__content"
+                  style="background-image: url('./img/services/engine.jpg')"
+                >
+                  <div class="services__content-item">
+                    <div class="services__img">
+                      <img src="./img/services/plus.svg" alt="" />
+                    </div>
+                    <p class="services__text">
+                      Engine repair, tuning, and preventative maintenance
+                    </p>
+                  </div>
+                </div>
+                <h3 class="services__title">Engines</h3>
+              </a>
             </div>
           </div>
-          <!--/form__row-->
-          <div class="form__row">
-            <div class="form__group">
-              <input type="email" class="input" placeholder=" " />
-              <label for="" class="label"> Email </label>
+        </div>
+      </section>
+      <section id="about" class="section about">
+        <div class="container">
+          <div class="about__wrapper">
+            <div class="about__block">
+              <h2 class="block__title text-white">
+                We understand how important it is to find the right auto service
+              </h2>
+              <p class="about__text">
+                Car repairs and maintenance can be expensive, and no one wants
+                to pay for damage caused by poor workmanship. Our ASE certified
+                technicians focus on honest diagnostics and dependable repairs
+                to keep you safely on the road.
+              </p>
+              <a href="#contacts" class="about__link">More about us</a>
             </div>
-            <div class="form__group">
-              <input type="tel" class="input" placeholder=" " />
-              <label for="" class="label"> Phone </label>
+            <img
+              src="./img/about_img.jpg"
+              alt="Mechanic working on a car in the garage"
+              class="about__img"
+            />
+          </div>
+        </div>
+      </section>
+      <section id="process" class="section process">
+        <div class="container">
+          <h2 class="process__title">Fast &amp; easy</h2>
+          <h3 class="process__subtitle">Our work process</h3>
+          <div class="wrapper">
+            <div class="block">
+              <div class="process__item">
+                <h4 class="info__title">01. Request your quote</h4>
+                <p class="info__text">
+                  Tell us about your vehicle and the issue
+                </p>
+              </div>
+            </div>
+            <div class="block">
+              <div class="process__item">
+                <h4 class="info__title">02. Bring your vehicle</h4>
+                <p class="info__text">
+                  We inspect and confirm the best repair plan
+                </p>
+              </div>
+            </div>
+            <div class="block">
+              <div class="process__item">
+                <h4 class="info__title">03. Get it repaired</h4>
+                <p class="info__text">
+                  Certified technicians deliver quality service
+                </p>
+              </div>
             </div>
           </div>
-          <!--/form__row-->
-          <div class="form__row">
-            <div class="form__group">
-              <textarea class="textarea" placeholder=" " name=""></textarea>
-              <label for="" class="label"> Message </label>
+        </div>
+      </section>
+      <section id="contacts" class="contacts">
+        <div class="container">
+          <h2 class="block__title text-white">Contact us</h2>
+          <form id="contact-form" class="contacts__form" novalidate>
+            <div class="form__row">
+              <div class="form__group">
+                <input
+                  id="first-name"
+                  name="firstName"
+                  type="text"
+                  class="input"
+                  placeholder=" "
+                  required
+                />
+                <label for="first-name" class="label">First name</label>
+              </div>
+              <div class="form__group">
+                <input
+                  id="last-name"
+                  name="lastName"
+                  type="text"
+                  class="input"
+                  placeholder=" "
+                  required
+                />
+                <label for="last-name" class="label">Last name</label>
+              </div>
             </div>
-          </div>
-          <!--/form__row-->
-          <button class="btn text-upper" type="submit">Send</button>
-        </form>
-        <!--/contact__form-->
-      </div>
-      <!--/container-->
-    </section>
-
+            <div class="form__row">
+              <div class="form__group">
+                <input
+                  id="email"
+                  name="email"
+                  type="email"
+                  class="input"
+                  placeholder=" "
+                  required
+                />
+                <label for="email" class="label">Email</label>
+              </div>
+              <div class="form__group">
+                <input
+                  id="phone"
+                  name="phone"
+                  type="tel"
+                  class="input"
+                  placeholder=" "
+                />
+                <label for="phone" class="label">Phone</label>
+              </div>
+            </div>
+            <div class="form__row">
+              <div class="form__group">
+                <textarea
+                  id="message"
+                  name="message"
+                  class="textarea"
+                  placeholder=" "
+                  rows="4"
+                  required
+                ></textarea>
+                <label for="message" class="label">Message</label>
+              </div>
+            </div>
+            <div id="form-message" class="form__message" aria-live="polite"></div>
+            <button class="btn text-upper" type="submit">Send</button>
+          </form>
+        </div>
+      </section>
+    </main>
     <footer class="footer">
       <div class="container">
         <div class="footer__wrapper">
           <p class="copyright">
-            © 2021 Auto theme by Frontend Tricks & Developed by Muxammedali
+            &copy; <span id="copyright-year"></span> Auto theme by Frontend
+            Tricks - Developed by Muxammedali
           </p>
           <div class="footer__soc">
             <a
               href="https://linkedin.com"
               target="_blank"
               class="footer__soc-link"
+              aria-label="LinkedIn"
             >
-              <img src="./img/socials/linkedin.svg" alt="" />
+              <img src="./img/socials/linkedin.svg" alt="LinkedIn" />
             </a>
             <a
               href="https://facebook.com"
               target="_blank"
               class="footer__soc-link"
+              aria-label="Facebook"
             >
-              <img src="./img/socials/facebook.svg" alt="" />
+              <img src="./img/socials/facebook.svg" alt="Facebook" />
             </a>
             <a
               href="https://instagram.com"
               target="_blank"
               class="footer__soc-link"
+              aria-label="Instagram"
             >
-              <img src="./img/socials/instagram.svg" alt="" />
+              <img src="./img/socials/instagram.svg" alt="Instagram" />
             </a>
           </div>
         </div>
