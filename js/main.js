@@ -171,4 +171,4 @@
     yearEl.textContent = String(new Date().getFullYear());
   }
 })();
-// Muxammedali
+// Muxammedali 2025
