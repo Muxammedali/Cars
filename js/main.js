@@ -1,4 +1,4 @@
-// Muxammedali 2025
+// Muxammedali 2025 year
 (() => {
   const doc = document;
 
